@@ -43,6 +43,17 @@ export const builtinViewerPlugins: readonly PluginEntry[] = [
     install: 'cd ~/.dsh && dsh plugin --profile web add dsh-video-preview',
   },
   {
+    // Video AND audio in one viewer, shipped as a companion plugin: it brings
+    // its own /media route (Range 206, suffix ranges, ETag/If-Range), so the
+    // element never depends on this plugin /sidebar/file, which is type-blind
+    // and Range-less for media containers.
+    id: 'dsh-av-preview',
+    name: () => t('pluginAvPreviewName'),
+    url: 'https://github.com/feigo313/dsh-av-preview',
+    description: () => t('pluginAvPreviewDesc'),
+    install: 'cd ~/.dsh && dsh plugin --profile web add dsh-av-preview',
+  },
+  {
     id: '@huanlin/dsh-plugin-better-sidebar-plugin-audio',
     name: () => t('pluginAudioName'),
     url: 'https://github.com/HuanLinOTO/dsh-plugin-better-sidebar-plugin-audio',

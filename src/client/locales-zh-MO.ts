@@ -618,6 +618,8 @@ export const zhMO: Record<string, string> = {
   pluginSidenoteDesc: 'Codex 風格側邊聊天與劃選註解：從目前工作階段 fork 出獨立側邊工作階段（歸檔隱藏、多實例並存、/side 命令、重新整理/重啟後恢復、模型跟隨主工作階段）；assistant 訊息劃選 → 編號角標 + 註解編輯器 →「N 條註解」chip 隨訊息送出，也可直接進入側邊聊天提問',
   pluginSshTunnelDesc: 'better-sidebar「SSH 隧道」Tab：多機主機清單 + 按專案授權 + 密鑰本地保管；模型工具 SSHManager（exec/SFTP/工作階段策略）；中央互動終端與雙欄 SFTP',
   pluginVideoPreviewDesc: '在 better-sidebar 編輯器內聯預覽影片檔案（.mp4/.webm/.mov/.mkv/.avi 等），自帶支援 HTTP Range（206）的 /video 宿主路由，可拖曳進度條、不必等整個檔案下載完就能開始播放',
+  pluginAvPreviewName: '音訊影片預覽',
+  pluginAvPreviewDesc: '在側邊欄內播放影片與音訊，經支援 HTTP Range 的專用 /media 路由串流。',
   pluginAudioDesc: '在 better-sidebar 編輯器內預覽音訊檔案（.mp3/.wav/.flac/.ogg/.m4a/.aac/.opus），內建波形播放器與即時頻譜：可縮放波形、點擊/拖曳定位、A-B 循環、聲道切換、即時頻譜與全曲頻譜圖；媒體路由支援 HTTP Range，任意大小皆可拖曳進度',
   pluginDevGitGraphDesc: 'vscode-git-graph 忠实移植的提交图 Tab：唯一入口为 better-sidebar 原生 tab，自动绑定会话工作区，checkout/merge/rebase/push/tag/stash 全套 git 操作，明暗主题跟随，点文件 diff 直接打开内置 DiffTab；需先安装 dsh-better-sidebar',
   pluginDocsPanelDesc: 'DSH 側邊欄裡的「全域文件」：全域 Markdown 筆記，任何工作區隨時可讀——列表點選閱讀、懸浮大綱跳轉、Chrome / VS Code 外部開啟、程式碼複製，目錄可設定（預設 ~/.dsh/docs）',

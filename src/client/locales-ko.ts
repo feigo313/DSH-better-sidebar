@@ -595,6 +595,8 @@ export const ko: Record<string, string> = {
   pluginSidenoteDesc: 'Codex 스타일 사이드 챗 + 선택 주석: 현재 세션을 fork해 독립 사이드 세션으로 분기(세션 목록에서는 보관되어 숨겨짐, 다중 인스턴스, /side 명령, 새로고침/재시작 후에도 복원됨, 모델은 주 세션을 따름); assistant 메시지 선택 → 번호 배지 + 주석 편집기 → "N개 주석" 칩이 다음 메시지에 함께 전송되며, 사이드 챗에서 바로 질문할 수도 있습니다',
   pluginSshTunnelDesc: 'better-sidebar "SSH 터널" Tab: 다중 호스트 목록 + 프로젝트별 권한 + 키 로컬 보관. 모델 도구 SSHManager(exec/SFTP/세션 전략). 중앙 대화형 터미널과 이중 창 SFTP',
   pluginVideoPreviewDesc: 'better-sidebar 편집기에서 비디오 파일(.mp4/.webm/.mov/.mkv/.avi 등)을 인라인 미리보기합니다. HTTP Range(206)를 지원하는 /video 호스트 라우트를 내장하며, 진행 바를 드래그할 수 있고 파일 전체를 내려받기 전에 재생이 시작됩니다',
+  pluginAvPreviewName: '오디오·비디오 미리보기',
+  pluginAvPreviewDesc: '사이드바에서 비디오와 오디오를 재생합니다. HTTP Range를 지원하는 전용 /media 경로로 스트리밍합니다.',
   pluginAudioDesc: 'better-sidebar 편집기에서 오디오 파일(.mp3/.wav/.flac/.ogg/.m4a/.aac/.opus)을 바로 미리 봅니다. 확대 가능한 파형 플레이어(클릭/드래그 탐색, A-B 반복, 채널 전환), 실시간 스펙트럼, 전체 파일 스펙트로그램을 제공하며 자체 미디어 라우트가 HTTP Range를 지원해 크기와 무관하게 탐색할 수 있습니다',
   pluginDevGitGraphDesc: 'A faithful vscode-git-graph port as a sidebar tab: the only entry is a native better-sidebar tab, auto-bound to the session workspace, full git operations (checkout/merge/rebase/push/tag/stash), light/dark theming, file diffs open in the built-in DiffTab; requires dsh-better-sidebar',
   pluginDocsPanelDesc: 'DSH 사이드바의 "전역 문서": 전역 Markdown 메모로, 어떤 작업 공간에서든 언제든 읽을 수 있습니다. 목록을 클릭해 읽기, 마우스를 올리면 개요로 이동, Chrome / VS Code에서 외부 열기, 코드 복사. 디렉터리를 설정할 수 있습니다(기본 ~/.dsh/docs)',
